@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+    <include android:id="@+id/toolbar"
+        layout="@layout/toobal"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:src="@drawable/company"/>
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/primary_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Art Of War by Sun Tzu"/>
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/primary_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="version: v1.0.0"/>
+        <View
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/primary_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MacroIT™"/>
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/primary_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Kaliajury Pakkarmatha,Comilla"/>
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/primary_text"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: muntakim1104001@gmail.com"/>
+    </LinearLayout>
+
+</RelativeLayout>

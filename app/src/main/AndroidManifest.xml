@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pranto.asus.thong">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChapteroneActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterTowActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterThreeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterFourActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterFiveActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterSixActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterSevenActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterEightActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterNineActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterTenActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterelevenActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChaptertwelveActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChapterthirteenActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".About"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
